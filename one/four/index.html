@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 200px;
+            background-color: #ccc;
+            color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .topCircle {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 0 0 50px 0;
+            background-color: #fc0;
+        }
+        
+        .bottomCircle {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px 0 0 0;
+            background-color: #fc0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="topCircle"></div>
+        <div class="bottomCircle"></div>
+    </div>
+
+
+</body>
+
+</html>
