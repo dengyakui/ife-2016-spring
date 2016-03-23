@@ -1,0 +1,148 @@
+
+p{margin:0;padding:0;line-height: 2em;}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #dedede;
+    font-family: '微软雅黑'
+}
+ul,li{margin:0;padding:0;list-style: none;}
+
+.header{
+    height: 60px;
+    background-color: #333;
+}
+.header a{
+    color: #fff;
+    text-decoration:none;
+}
+.header img{
+    margin-top:10px;
+    margin-left: 40px;
+    width:120px;
+    height: 40px;
+}
+.nav{
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav a:hover{
+    color:#7a7879;
+}
+.left{
+    float:left;
+    width:100%;
+}
+.wrap{
+    overflow: hidden;
+}
+.right{
+    font-size:14px;
+    float:right;
+margin-left: -100%;
+width:344px;
+padding-bottom:9999px;
+margin-bottom:-9999px;
+}
+.inner{
+    margin-right: 374px;
+}
+.article,.sidebar{
+    margin-top:20px;
+    background-color:#fff;
+    padding:20px;
+}
+.article li{margin-bottom: 10px;}
+.article ol li{list-style-type: decimal;}
+.content>p{text-indent: 2em;line-height: 2em;}
+.pubInfo{
+    font-size: 0.7em;
+    color:silver;
+}
+.imgList{
+    margin-left: 2em;
+}
+.imgList li{
+    display: inline-block;
+    text-align: center;
+    width:100px;
+    padding:10px;
+    margin:10px;
+    border: 1px solid #ccc;
+}
+.imgList img{
+    width:100px;
+    height: 80px;
+}
+.imgList div{
+    font-size:12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.article table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.thead{
+    height: 22px;
+    line-height: 22px;
+    color:#fff;
+    background-color: #333;
+}
+table tr{
+    height: 30px;
+    line-height: 30px;
+}
+table tfoot tr{
+    background-color:#cbcbcb;
+    font-weight: bold;
+}
+ table td{
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+h3{font-weight: normal;}
+.quote{
+    font-size:1.2em;
+    border-left: 4px solid #ccc;
+    padding-left: 12px;
+    font-weight: bold;
+}
+form{
+    width:100%;
+    
+}
+
+.btn-block{
+    display: block;
+    width:100%;
+    padding:10px;
+    background-color: #3355d0;
+    font-size:18px;
+    color:#fff;
+    text-align: center;
+    border-radius: 15px;
+}
+.footer{
+    height: 50px;
+    padding-top:20px;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+}
+.line{clear:both;overflow: hidden;line-height:2em;}
+.line .pull-left{
+    float:left;
+    text-align: right;
+    width:120px;
+    
+}
+.line .pull-right{
+    margin-left: 130px;
+    
+}
